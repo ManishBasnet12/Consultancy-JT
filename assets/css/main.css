@@ -1956,3 +1956,10 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+
+.tos, .pp{
+  margin-top: 200px;
+  max-width: 1350px;
+  margin-inline: auto;
+}
