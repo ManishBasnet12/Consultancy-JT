@@ -158,7 +158,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
+  max-height: 100px;
   margin-right: 8px;
 }
 
@@ -1028,6 +1028,12 @@ section,
   color: var(--contrast-color);
 }
 
+.service-item img{
+  width: 100px;
+ aspect-ratio: 1 / 1;
+ object-fit: cover;
+}
+
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
@@ -1266,6 +1272,7 @@ section,
   transition: 0.3s;
   border-radius: 10px;
   display: flex;
+  gap: 20px;
 }
 
 .services .service-item .icon {
